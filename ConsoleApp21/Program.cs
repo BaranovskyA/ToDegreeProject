@@ -20,6 +20,8 @@ namespace ConsoleApp21
                     Console.Write(">> Введите число, которое нужно возвести в степень: \n>> ");
                     number = int.Parse(Console.ReadLine());
 
+                    if (number == 0) break;
+
                     Console.Write(">> Введите степень для числа: \n>> ");
                     degree = int.Parse(Console.ReadLine());
                 }
